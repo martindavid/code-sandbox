@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html ng-app="demoapp">
+
+<head>
+    <base href="/">
+    <script data-require="angular.js@<2" data-semver="1.5.8" src="https://code.angularjs.org/1.5.8/angular.js"></script>
+    <script data-require="ui-router@0.3.1" data-semver="0.3.1" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular-animate.min.js"></script>
+    <style>
+        .animate-repeat.ng-move,
+        .animate-repeat.ng-enter,
+        .animate-repeat.ng-leave {
+            -webkit-transition: all linear 0.5s;
+            transition: all linear 0.5s;
+        }
+
+        .animate-repeat.ng-leave.ng-leave-active,
+        .animate-repeat.ng-move,
+        .animate-repeat.ng-enter {
+            opacity: 0;
+            max-height: 0;
+        }
+
+        .animate-repeat.ng-leave,
+        .animate-repeat.ng-move.ng-move-active,
+        .animate-repeat.ng-enter.ng-enter-active {
+            opacity: 1;
+            max-height: 20px;
+        }
+    </style>
+    <script>
+        var app = angular.module('demoapp', [
+            'ui.router', 'ngAnimate'
+        ]);
+
+        app
+            .config(function($locationProvider, $stateProvider, $urlRouterProvider) {
+                $urlRouterProvider.otherwise('/');
+                var nav = '<a ui-sref="home">Home</a> <a ui-sref="about">About</a> <p>Check your console for logs.</p>';
+                $locationProvider.html5Mode(true);
+                $stateProvider
+                    .state('home', {
+                        url: '/',
+                        template: "<h1>Home</h1>" + nav,
+                    })
+                    .state('about', {
+                        url: '/about',
+                        template: "<h1>About</h1>" + nav,
+                    })
+            });
+
+        app
+            .animation('.fade', function() {
+                return {
+                    enter: function(elem, done) {
+                        console.log("enter", elem);
+                        done();
+                    },
+                    leave: function(elem, done) {
+                        console.log("leave", elem);
+                        done();
+                    }
+                }
+            });
+    </script>
+</head>
+
+<body ng-view ui-view ng-animate="view" class="html-body">
+  <div class="fade">Test</div>
+</body>
+
+</html>
