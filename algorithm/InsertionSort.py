@@ -8,8 +8,7 @@ def InsertionSort(Arr):
             Arr[j + 1] = Arr[j]
             j -= 1
         Arr[j + 1] = v
-    return Arr
-
+    return Arr 
 
 Arr = [10,8,3,5,11,2,7]
 print InsertionSort(Arr)
