@@ -10,7 +10,6 @@ def search(arr, lo, hi):
         return m + 1
 
     if arr[m + 1] == 0:
-        print(arr[m + 1])
         return search(arr, m + 1, hi)
     else:
         return search(arr, lo, m - 1)
