@@ -3,11 +3,11 @@ from __future__ import print_function
 from graph_list import Graph
 
 
-def dfs(G, currentVert, visited, sequence):
-    visited[currentVert] = True  # mark the visited node
+def dfs(G, current_vert, visited, sequence):
+    visited[current_vert] = True  # mark the visited node
     #print("traversal: " + currentVert.get_vertex_ID())
-    sequence.append(currentVert.get_vertex_ID())
-    for nbr in currentVert.get_connections():  # take a neighbouring node
+    sequence.append(current_vert.get_vertex_ID())
+    for nbr in current_vert.get_connections():  # take a neighbouring node
         if nbr not in visited:  # condition to check whether the neighbour node is already visited
             dfs(G, nbr, visited, sequence)  # recursively traverse the neighbouring node
 
@@ -15,13 +15,14 @@ def dfs(G, currentVert, visited, sequence):
 def DFSTraversal(G):
     sequence = []
     visited = {}  # Dictionary to mark the visited nodes
-    for currentVert in G:  # G contains vertex objects
-        if currentVert not in visited:  # Start traversing from the root node only if its not visited
+    for current_vert in G:  # G contains vertex objects
+        # Start traversing from the root node only if its not visited
+        if current_vert not in visited:
             # For a connected graph this is called only once
-            dfs(G, currentVert, visited, sequence)
+            dfs(G, current_vert, visited, sequence)
     print(sequence)
-    n = len(sequence)
-    for i in range(n, 0, -1):
+    length = len(sequence)
+    for i in range(length, 0, -1):
         print(sequence[i - 1])
 
 if __name__ == '__main__':
