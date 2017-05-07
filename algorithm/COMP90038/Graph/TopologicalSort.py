@@ -20,10 +20,20 @@ def DFSTraversal(G):
         if current_vert not in visited:
             # For a connected graph this is called only once
             dfs(G, current_vert, visited, sequence)
-    print(sequence)
+    return sequence
+
+def top_sort(graph):
+    """ Topological sort using DFS
+    - Run DFS and track the sequnce of node visit
+    - Print the sequnce in reverse order
+
+    Note: only works for Directed Acyclic Graph
+    """
+    sequence = DFSTraversal(graph)
     length = len(sequence)
     for i in range(length, 0, -1):
-        print(sequence[i - 1])
+        print(sequence[i - 1], end=" ")
+
 
 if __name__ == '__main__':
 
@@ -42,8 +52,8 @@ if __name__ == '__main__':
     G.add_edge('c', 'e', 1)
     G.add_edge('d', 'e', 1)
     G.add_edge('e', 'a', 1)
-    print('Graph data:')
-    #print(G.get_edges())
+    
+    print(G.get_vertex('a'))
 
-    DFSTraversal(G)
-
+    print("\nTopological Sort")
+    top_sort(G)

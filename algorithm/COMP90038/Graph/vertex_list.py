@@ -1,5 +1,6 @@
 import sys
 
+
 class Vertex:
 
     def __init__(self, node):
@@ -24,7 +25,7 @@ class Vertex:
 
     def set_in_degree(self, in_degree):
         self.in_degree = in_degree
-    
+
     def get_in_degree(self):
         return self.in_degree
 
