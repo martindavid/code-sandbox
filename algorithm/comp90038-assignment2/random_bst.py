@@ -9,6 +9,7 @@ class RandomBSTNode(object):
         self.parent = None
         self.left = None
         self.right = None
+        self.is_root = False
 
     def set_left(self, node):
         self.left = node
@@ -31,66 +32,71 @@ class RandomBSTNode(object):
 
 def insert_node(root, node):
     if root is None:
-        root = node
+        parent = node
     else:
         if root.key > node.key:
             if root.get_left() is None:
                 root.set_left(node)
-                node.set_parent(root)
+                node.set_parent(parent)
             else:
                 insert_node(root.get_left(), node)
         else:
             if root.get_right() is None:
                 root.set_right(node)
-                node.set_parent(root)
+                node.set_parent(parent)
             else:
                 insert_node(root.get_right(), node)
     percolate_up(node)
 
 
+def rotate_left(node):
+    w = node.right
+    w.parent = node.parent
+    if w.parent is not None:
+        if w.parent.left is node:
+            w.parent.left = w
+        else:
+            w.parent.right = w
+    node.right = w.left
+    if node.right is not None:
+        node.right.parent = node
+    node.parent = w
+    w.left = node
+    if node.is_root:
+        w.is_root = True
+        node.is_root = False
+        w.parent = None
+
+
+def rotate_right(node):
+    w = node.left # fetch node that we're going to restore the min-heap property
+    w.parent = node.parent # 
+    if w.parent is not None:
+        if w.parent.left is node:
+            w.parent.left = w
+        else:
+            w.parent.right = w
+    node.left = w.right
+    if node.left is not None:
+        node.left.parent = node
+    node.parent = w
+    w.right = node
+    if node.is_root:
+        w.is_root = True
+        w.parent = None
+        node.is_root = False
+
+
 def percolate_up(node):
     while node.parent is not None and node.parent.priority > node.priority:
-        print("Check Node (%s:%d)" % (node.key, node.priority))
-        # print("Check Node Parent (%s:%d)" %
-        #       (node.parent.key, node.parent.priority))
-        parent = node.parent
-        if parent.parent is not None:
-            node.parent = parent.parent
+        if node.parent.right is node:
+            print("Left rotate foPr node %s:%d" % (node.parent.key, node.parent.priority))
+            rotate_left(node.parent)
         else:
-            node.parent = None
-        parent.parent = node
-        if node.key > parent.key:  # prev parent will become node left child
-            if node.left is None:
-                if is_leaf(node):
-                    parent.left = None
-                    parent.right = None
-                node.left = parent
-            else:
-                if node.left.key > parent.key:
-                    parent.right = node.left
-                else:
-                    parent.left = node.left
-                node.left = parent
-        else:  # prev parent will become node right child
-            if node.right is None:
-                if is_leaf(node):
-                    parent.right = None
-                    parent.left = None
-                node.right = parent
-            else:
-                if node.right.key > parent.key:
-                    parent.right = node.right
-                else:
-                    parent.left = node.right
-                node.right = parent
-        print_with_child(node)
-
-
-def is_leaf(node):
-    if node is None:
-        return False
-    return node.left is None and node.right is None
-
+            print("Right rotate for node %s:%d" % (node.parent.key, node.parent.priority))
+            rotate_right(node.parent)
+    if node.parent is None:
+        node.is_root = True
 
 def print_with_parent(node):
     print("Parent for node (%s:%d) is (%s:%d)" %
@@ -106,8 +112,9 @@ def print_with_child(node):
           (node.key, node.priority, left_key, left_priority, right_key, right_priority))
 
 if __name__ == "__main__":
-    #root_node = RandomBSTNode("G", 3)
-    root_node = RandomBSTNode("F", 2)
+    root_node = RandomBSTNode("G", 3)
+    root_node.is_root = True
+    #root_node = RandomBSTNode("F", 2)
     child_b6 = RandomBSTNode("B", 6)
     child_k8 = RandomBSTNode("K", 8)
     child_a11 = RandomBSTNode("A", 11)
@@ -142,12 +149,13 @@ if __name__ == "__main__":
     # print_with_parent(child_d9)
     # print_with_child(child_d9)
 
-    #child_f2 = RandomBSTNode("F", 2)
-    child_m3 = RandomBSTNode("M", 3)
-    insert_node(root_node, child_m3)
+    child_f2 = RandomBSTNode("F", 2)
+    insert_node(root_node, child_f2)
+    #child_m3 = RandomBSTNode("M", 3)
+    #insert_node(root_node, child_m3)
 
     print("")
-    print_with_child(child_m3)
+    print_with_child(child_f2)
     print_with_child(child_b6)
     print_with_child(root_node)
     print_with_child(child_d9)

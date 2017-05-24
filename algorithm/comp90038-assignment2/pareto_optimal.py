@@ -36,7 +36,7 @@ function FIND_PARETO_OPTIMAL(S)
   pareto_optimal.push(sorted_s[len - 1]) // put last element (highest x-axis value)
   y_max <- sorted_s[len - 1][1] // store y-axis from highest x-axis point
 
-  for i <- 0 to len - 2 do
+  for len - 2 to 0 do
       // compare max y-axis with the selected point y-axis
       if point[i][1] > y_max then 
           pareto_optimal.push(point)
