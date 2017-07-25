@@ -2,25 +2,23 @@ from __future__ import print_function
 
 point = [
     (1, 11), (2, 1), (2, 6), (4, 3), (4, 8), (5,10),
-    (6, 6), (8, 7), (10, 4), (11, 2)
+    (6, 6), (8, 7), (10, 4), (11, 2), (11, 11), (11, 7), (11, 10), (11, 4), (12, 5)
 ]
-#(11, 4), (11, 7), (11, 10), (11, 11), (12, 11)
 
 X = []
 Y = []
 
 sorted(point, key=lambda x: x[0])
-print(point[0])
+print(point)
 temp_point = point[len(point) - 1]
 y_max = temp_point[1]
 pareto_optimal = []
 pareto_optimal.append(temp_point)
 for i in range(len(point) - 2, -1, -1):
-    test_point = point[i]
-    print(i)
-    if test_point[1] >= y_max:
-        pareto_optimal.append(test_point)
-        y_max = test_point[1]
+    print(point[i])
+    if point[i][1] >= y_max:
+        pareto_optimal.append(point[i])
+        y_max = point[i][1]
 
 print(pareto_optimal)
 
