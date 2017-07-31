@@ -7,16 +7,8 @@ What are the most annoying limitations of a programming language you
 have used?  It would be good if you posted something on this topic to
 the LMS discussion forum.
 
-Answer: 
-Javascript:
-- no built-in type checking
-
 QUESTION 2
 What are some useful Haskell resources on the web?
-
-Answer:
-- https://github.com/krispo/awesome-haskell
-
 
 QUESTION 3
 What will be printed by this C code fragment?
@@ -38,10 +30,6 @@ What will be printed by this C code fragment?
         }
 
 What does this show about the impact of side effects in C?
-
-Answer:
-- code above will print 12
-- it shows that there is no immutability for variable i.
 
 QUESTION 4
 Fix the formatting errors (due the offside rule) in the following code,
