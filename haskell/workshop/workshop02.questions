@@ -5,13 +5,16 @@ Workshop exercises set 2.
 QUESTION 1
 Give a high level description (not programming language specific)
 of at least five different possible representations of playing cards
-from a standard 52 card deck. Describe the advantages and disadvantages
-of each representation.
+from a standard 52 card deck. Describe the advantages and disadvantages of each representation.
 
 The standard 52 card deck has 13 cards in each of four suits.
 The suits are clubs, diamonds, hearts and spades, and the 13 ranks in
 each suit are the 2, 3, 4, 5, 6, 7, 8, 9, 10, jack, queen, king and ace.
 In this question, we ignore jokers.
+
+Answer:
+- Make a list of suits and list of rank
+- Loop in list of suits and pick only one rank randomly for each suit
 
 QUESTION 2
 Define a Haskell type for representing "font" tags in HTML. A font tag
@@ -27,18 +30,43 @@ selects a small font, people with bad eyesight looking at the page
 won't be able to read it. This is why the font tag is actually deprecated,
 which means it is slated to disappear in a future version of the HTML standard.
 
+Answer:
+
+data cType = colorString String | hex String | rgb Int Int Int
+data fontType = Empty | size Int | face String | colour cType
+data font = [fontType]
+
 QUESTION 3
 Implement a function 'factorial' that computes the factorial of a given
 integer.  Include a type declaration.
+
+Answer:
+factorial :: Int -> Int
+factorial 1 = 1
+factorial n = n * factorial (n - 1)
 
 QUESTION 4
 Implement a function 'myElem' which returns True if a given item is present
 in a given list.  Include a type declaration.
 
+Answer:
+myElem :: Eq a => a -> [a] -> Bool
+myElem a [] = False
+myElem a (x: xs)
+  | a == x = True
+  | otherwise = myElem a xs
+
 QUESTION 5
 Implement a function 'longestPrefix' which returns the longest common prefix
 of two lists. ie: When applied to "extras" and "extreme", the function
 should return "extr".
+
+Answer:
+longestPrefix :: Eq a => [a] -> [a] -> [a]
+longestPrefix _ [] = []
+longestPrefix (x:xs) (y:ys)
+  | x == y = x : longestPrefix xs ys
+  | otherwise = []
 
 QUESTION 6
 Without necessarily understanding the code, translate the following

@@ -1,4 +1,4 @@
-{-# LANGUAGE TemplateHaskell #-}
+main = print "Hello World"
 
 allPos []     = True
 allPos (x:xs) = x > 0 && allPos xs
@@ -31,3 +31,36 @@ foo n
   | n < 0 = 0
   | n `mod` 17 == 2 = -43
   | otherwise = n + 3
+
+sumPair :: (Int, Int) -> Int
+sumPair (x, y) = x + y
+
+-- generate a hailstone iterations from a starting number
+hailstoneSeq :: Integer -> [Integer]
+hailstoneSeq 1 = [1]
+hailstoneSeq n = n : hailstoneSeq (hailStone n)
+
+-- Compute the length of the list of integer
+intListLength :: [Integer] -> Integer
+intListLength []     = 0
+intListLength (x:xs) = 1 + intListLength xs
+-- in above code, since we're not using x it can be replaced with intListLength (_:xs) = 1 + intListLength xs
+
+-- Sum every pair element in a list
+sumEveryTwo :: [Integer] -> [Integer]
+sumEveryTwo []         = [] -- do nothing with an empty list
+sumEveryTwo (x:[])     = [x] -- do nothing to a list with just one element
+sumEveryTwo (x:(y:zs)) = (x + y) : sumEveryTwo zs
+
+double nums =
+  if null nums
+  then []
+  else 2 * head nums : double (tail nums)
+
+removeOdd nums =
+  if null nums
+     then []
+  else
+    if mod (head nums) 2 == 0
+       then head nums : removeOdd (tail nums)
+    else removeOdd (tail nums)
