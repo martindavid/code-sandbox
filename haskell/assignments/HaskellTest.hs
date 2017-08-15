@@ -14,17 +14,17 @@
 --  exceptions and reports them as failures (a test intended to fail should
 --  catch the exception itself and report it as a success).
 
-module HaskellTest (TestCase(..), TestResult(..), expect, quality, 
+module HaskellTest (TestCase(..), TestResult(..), expect, quality,
                     test, testStdout, testVerbose) where
 
-import Prelude hiding (catch)
-import Text.Printf
-import System.Timeout
-import System.Time
-import System.CPUTime
-import System.IO
-import Control.Monad
-import Control.Exception
+import           Control.Exception
+import           Control.Monad
+import           Prelude           hiding (catch)
+import           System.CPUTime
+import           System.IO
+import           System.Time
+import           System.Timeout
+import           Text.Printf
 
 -- | The possible results from running a single test.
 data TestResult
@@ -52,16 +52,16 @@ data TestCase
     -- started to show what is being tested; a counter is also printed to
     -- distinguish among multiple individual tests with the same label.
     = Label String TestCase
-    -- | The value of the specified test case(s) is multiplied by the 
-    -- specified factor 
+    -- | The value of the specified test case(s) is multiplied by the
+    -- specified factor
     | Scaled Double TestCase
-    -- | The value of the specified test case is the quotient of the 
+    -- | The value of the specified test case is the quotient of the
     -- number of passed tests by the total number of tests.
     | Ratio TestCase
     -- | The specified number of seconds is given as a time limit for the
     -- execution of each individual test in the constituent test case.
     | TimeLimit Double TestCase
-    -- | The total score for the included test(s), after any scaling, 
+    -- | The total score for the included test(s), after any scaling,
     -- is written to the specified file
     | ResultFile FilePath TestCase
     -- | An individual correctness test.  The specified test is
@@ -84,7 +84,7 @@ data TestCase
 expect :: (Eq a, Show a) => a -> a -> TestCase
 expr `expect` expected
     = Test (if expr == expected then Succeed "" ""
-            else Fail "" ("Expected " ++ (show expected) ++ 
+            else Fail "" ("Expected " ++ (show expected) ++
                           " but got " ++ (show expr)))
 
 -- | Construct a quality test case that tests the value of the first
@@ -129,14 +129,14 @@ testToHandle fhandle verbose test = do
   endTime <- getCPUTime
   endDate <- getClockTime
   hPutStrLn fhandle ("Haskell test run ended " ++ show endDate)
-  hPutStrLn fhandle ("Total CPU time used = " ++ 
+  hPutStrLn fhandle ("Total CPU time used = " ++
                     (show $ round (realToFrac(endTime-startTime)/1000000000)) ++
                     " milliseconds"
                    )
 
--- ("Total score:  " ++ show score ++ 
+-- ("Total score:  " ++ show score ++
 --                     " / " ++ (show $ realToFrac count) ++
---                     " = " ++ 
+--                     " = " ++
 --                     show (100*((realToFrac score)/(realToFrac count))) ++
 --                     "%"
 --                    )
@@ -149,10 +149,10 @@ testToHandle fhandle verbose test = do
 -- tests for this label.  Returns the test number of the next test case for
 -- this label, the total of the qualities and count of successful test cases,
 -- and the total count of individual tests run.
-runTest :: Handle -> String -> Int -> Maybe Double -> Bool -> TestCase 
+runTest :: Handle -> String -> Int -> Maybe Double -> Bool -> TestCase
            -> IO (Int,Double,Double)
 -- runTest fhandle label count limit verbose testcase
-runTest fhandle _ _ limit verbose (Label label tcase) = 
+runTest fhandle _ _ limit verbose (Label label tcase) =
     runTest fhandle label 1 limit verbose tcase
 runTest fhandle l n _ verbose (TimeLimit secs tcase) =
     runTest fhandle l n (Just secs) verbose tcase
@@ -167,7 +167,7 @@ runTest fhandle l n limit verbose (ResultFile file tcase) = do
     writeFile file $ (show t) ++ "\n"
     return (n1,t,c)
 runTest fhandle l n limit verbose (Test code) =
-    actualTest fhandle l n limit verbose code 
+    actualTest fhandle l n limit verbose code
 runTest fhandle l n limit verbose (Summarised intro outrofn tcase) =
     do when (intro /= "") $ hPutStrLn fhandle intro
        (n1,t,c) <- runTest fhandle l n limit verbose tcase
@@ -182,16 +182,16 @@ runTest fhandle l n limit verbose (Suite (t:ts)) =
 
 timeoutTime :: Maybe Double -> Int
 timeoutTime Nothing = (-1)      -- Negative timeout number means no timeout
-timeoutTime (Just secs) = 
+timeoutTime (Just secs) =
     if secs >= (fromIntegral (maxBound::Int)) / 1000000
     then error ("TimeLimit too large: " ++ (show secs))
     else (round (1000000.0*secs)) -- convert to microsecs
 
-actualTest :: Handle -> String -> Int ->  Maybe Double -> Bool 
+actualTest :: Handle -> String -> Int ->  Maybe Double -> Bool
            -> TestResult -> IO (Int,Double,Double)
 actualTest fhandle l n limit verbose code =
     do printLabel fhandle l n
-       result0 <- timeout (timeoutTime limit) 
+       result0 <- timeout (timeoutTime limit)
                   (limitedTest fhandle n verbose code)
        case result0 of
          Nothing ->             -- timed out:  haven't printed message yet
@@ -212,25 +212,25 @@ printLabel fhandle label num =
        hPutStr fhandle " ... "
        hFlush fhandle
 
-handleTestResult :: Handle -> Int -> Bool -> TestResult 
+handleTestResult :: Handle -> Int -> Bool -> TestResult
                     -> IO (Int,Double,Double)
 handleTestResult fhandle n verbose code =
     do printTestResult fhandle verbose code     -- forces execution of code
        return (n+1,testResult code,1)   -- doesn't re-evaluate code
 
 printTestResult :: Handle -> Bool -> TestResult -> IO ()
-printTestResult fhandle verbose result 
+printTestResult fhandle verbose result
     = hPutStrLn fhandle (resultMessage verbose result )
 
 resultMessage :: Bool -> TestResult -> String
-resultMessage verbose (Succeed norm verb) 
+resultMessage verbose (Succeed norm verb)
     = "PASSED       "  ++ (parenthetical $ pick verbose norm norm++verb)
-resultMessage verbose (Fail norm verb) 
+resultMessage verbose (Fail norm verb)
     = "FAILED***    "  ++ (parenthetical $ pick verbose norm norm++verb)
-resultMessage verbose (Exception e) 
+resultMessage verbose (Exception e)
     = "EXCEPT***    "  ++ (parenthetical (show e))
-resultMessage verbose (Quality score norm verb) 
-    = "PASSED " ++ (printf "%5.1f" (100*score)) ++ "% " ++ 
+resultMessage verbose (Quality score norm verb)
+    = "PASSED " ++ (printf "%5.1f" (100*score)) ++ "% " ++
       (parenthetical $ pick verbose norm norm++verb)
 resultMessage _       Timeout
     = "TIMEOUT**"
@@ -244,7 +244,7 @@ testResult Timeout           = 0.0
 pick True  _ x = x
 pick False x _ = x
 
-parenthetical "" = ""
+parenthetical ""   = ""
 parenthetical text = "(" ++ text ++ ")"
 
 printQualityResult fhandle = (hPutStrLn fhandle) . show

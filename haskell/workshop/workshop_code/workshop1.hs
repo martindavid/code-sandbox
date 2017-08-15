@@ -17,11 +17,9 @@ pairList :: [Int] -> [Int] -> [Int]
 pairList [] [] = []
 pairList a b   = a ++ b
 
-myReverse :: [Int] -> [Int]
-myReverse []     = []
-myReverse [x]    = [x]
-myReverse (x:xs) = xs ++ x
-
+reverse' :: [Int] -> [Int]
+reverse' []     = []
+reverse' (x:xs) = reverse xs ++ [x]
 
 getNthElem :: Int -> [Int] -> Int
 getNthElem a b = b!!a

@@ -99,7 +99,9 @@ Note you should call your function 'myReverse' to avoid shadowing the
 existing function.
 
 Answer:
-
+reverse' :: [Int] -> [Int]
+reverse' []     = []
+reverse' (x:xs) = reverse xs ++ [x]
 
 QUESTION 8
 Implement a function 'getNthElem' which takes an integer 'n' and a list, and

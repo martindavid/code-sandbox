@@ -1,4 +1,6 @@
+{-# LANGUAGE TemplateHaskell #-}
 main = print "Hello World"
+
 
 allPos []     = True
 allPos (x:xs) = x > 0 && allPos xs
@@ -64,3 +66,6 @@ removeOdd nums =
     if mod (head nums) 2 == 0
        then head nums : removeOdd (tail nums)
     else removeOdd (tail nums)
+
+data FailableDouble = Failure | Ok Double
+  deriving Show
