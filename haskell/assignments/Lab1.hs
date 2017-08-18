@@ -6,7 +6,7 @@ module Lab1 (subst, interleave, unroll) where
 subst :: (Eq t) => t -> t -> [t] -> [t]
 subst _ _ [] = []
 subst a b (x:xs)
-  | a == x = b : (subst a b xs)
+  | a == x = b : subst a b xs
   | otherwise = x : subst a b xs
 
 -- Question 2
@@ -29,5 +29,5 @@ unroll :: Int -> [a] -> [a]
 unroll _ [] = []
 unroll n a
   | n <= 0 = []
-  | n > length a = a ++ unroll (n - (length a)) a
+  | n > length a = a ++ unroll (n - length a) a
 unroll n (x:xs) = x : unroll (n - 1) xs
