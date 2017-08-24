@@ -1,11 +1,18 @@
 -- main = print "hello, world"
-import           Prelude
 
-printNumber = print 1
+data Thing = Shoe
+           | Ship
+           | SealingWax
+           | Cabbage
+           | King
+  deriving Show
 
-f x = v2 + 4
-  where v0 = undefined + 1
-        v1 = 2 * x
-        v2 = v1 / 3 x
+shoe :: Thing
+shoe = Shoe
 
-main = print (f 10)
+data FailableDouble = Failure
+                    | OK Double
+  deriving Show
+
+ex01 = Failure
+ex02 = OK 3.4
