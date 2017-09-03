@@ -1,4 +1,5 @@
-{-# LANGUAGE TemplateHaskell #-}
+import           Data.Foldable
+
 main = print "Hello World"
 
 
@@ -69,3 +70,31 @@ removeOdd nums =
 
 data FailableDouble = Failure | Ok Double
   deriving Show
+
+data Thing = Shoe
+           | Ship
+           | SealingWax
+           | Cabbage
+           | King
+  deriving Show
+
+data Person = Person String Int Thing
+  deriving Show
+
+brent :: Person
+brent = Person "Brent" 31 SealingWax
+
+stan :: Person
+stan = Person "Stan" 94 Cabbage
+
+getAge :: Person -> Int
+getAge (Person _ a _) = a
+
+maybeHead :: [a] -> Maybe a
+maybeHead []     = Nothing
+maybeHead (x:xs) = Just x
+
+const :: a -> b -> a
+const a _ = a
+
+length = foldr ((+) . const 1) 0
