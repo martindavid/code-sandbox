@@ -18,8 +18,9 @@ octave = 2
 filterGuessList :: [[String]] -> [String] -> [Int] -> [[String]]
 filterGuessList [] _ _ = []
 filterGuessList (x:xs) list2 scores
-  | scores == getScore x list2  = x : filterGuessList xs list2 scores
+  | scores == computedScore  = x : filterGuessList xs list2 scores
   | otherwise                       = filterGuessList xs list2 scores
+  where computedScore = getScore x list2
 
 
 -- Intermediate function to compute next guess score
@@ -36,10 +37,10 @@ correctScore part list1 list2
   | part == pitch = p
   | part == note = n
   | part == octave = o
-  where p = length $ filterSimilar ulist1 list2
-        t = length ulist1
+  where p = length $ filterSimilar newList1 list2
+        t = length newList1
         n = t - ln - p
         o = t - lo - p
-        ulist1 = removeDuplicates list1
-        ln = length(deleteFirstsBy(eqNthElem 0)ulist1 list2)
-        lo = length(deleteFirstsBy(eqNthElem 1)ulist1 list2)
+        newList1 = removeDuplicates list1
+        ln = length(deleteFirstsBy(eqNthElem 0)newList1 list2)
+        lo = length(deleteFirstsBy(eqNthElem 1)newList1 list2)
