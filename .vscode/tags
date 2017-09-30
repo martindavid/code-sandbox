@@ -1,0 +1,281 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	../algorithm/COMP90038/SampleExam2017/min1.py	/^A = [8, 1, 3, 7, 5, 2, 12]$/;"	kind:variable	line:14
+A	../algorithm/min_max.py	/^A = [10, 29, 5, 12, 30, 45]$/;"	kind:variable	line:15
+ARR	../algorithm/mid-term-5.py	/^ARR = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]$/;"	kind:variable	line:18
+AVLNode	../algorithm/COMP90038/Tree/avl_tree.py	/^class AVLNode(object):$/;"	kind:class	line:3
+AVLTree	../algorithm/COMP90038/Tree/avl_tree.py	/^class AVLTree(object):$/;"	kind:class	line:10
+Arr	../algorithm/COMP90038/Sorting/insertion_sort.py	/^Arr = [10,8,3,5,11,2,7]$/;"	kind:variable	line:13
+Arr	../algorithm/COMP90038/comp90038-assignment1/FindNumberKeys.py	/^Arr = [-10 ,-5, -1, 0, 3, 6, 7,  9]$/;"	kind:variable	line:24
+Arr	../algorithm/COMP90038/comp90038-assignment1/Mystery.py	/^Arr = np.zeros((5,5))$/;"	kind:variable	line:16
+Arr	../algorithm/Mystery.py	/^Arr = np.zeros((5,5))$/;"	kind:variable	line:13
+Arr	../random-stuff/random.py	/^Arr = sim("led","deed")$/;"	kind:variable	line:15
+BFS	../algorithm/COMP90038/comp90038-assignment1/Test.py	/^def BFS(graph,start,end,q):$/;"	kind:function	line:41
+BSTNode	../algorithm/COMP90038/Tree/bst.py	/^class BSTNode(object):$/;"	kind:class	line:2
+BinaryTreeNode	../algorithm/COMP90038/Tree/binary_tree.py	/^class BinaryTreeNode:$/;"	kind:class	line:2
+BinaryTreeNode	../algorithm/COMP90038/Tree/binary_tree_problems.py	/^from binary_tree import BinaryTreeNode$/;"	kind:namespace	line:5
+BinaryTreeNode	../algorithm/COMP90038/Tree/binary_tree_traversal.py	/^from binary_tree import BinaryTreeNode$/;"	kind:namespace	line:2
+DFSTraversal	../algorithm/COMP90038/Graph/TopologicalSort.py	/^def DFSTraversal(G):$/;"	kind:function	line:15
+DFSTraversal	../algorithm/COMP90038/Graph/dfs.py	/^def DFSTraversal(G):$/;"	kind:function	line:12
+FindNumberKeys.py	../algorithm/COMP90038/comp90038-assignment1/FindNumberKeys.py	1;"	kind:file	line:1
+G	../algorithm/COMP90038/Graph/TopologicalSort.py	/^    G = Graph()$/;"	kind:variable	line:30
+G	../algorithm/COMP90038/Graph/dfs.py	/^    G = Graph()$/;"	kind:variable	line:22
+G	../algorithm/COMP90038/test.py	/^    G = Graph()$/;"	kind:variable	line:21
+Graph	../algorithm/COMP90038/Graph/TopologicalSort.py	/^from graph_list import Graph$/;"	kind:namespace	line:3
+Graph	../algorithm/COMP90038/Graph/dfs.py	/^from graph_list import Graph$/;"	kind:namespace	line:2
+Graph	../algorithm/COMP90038/Graph/graph.py	/^class Graph(object):$/;"	kind:class	line:1
+Graph	../algorithm/COMP90038/Graph/graph_list.py	/^class Graph:$/;"	kind:class	line:3
+Graph	../algorithm/COMP90038/Graph/graphs_matrix.py	/^class Graph:$/;"	kind:class	line:5
+Graph	../algorithm/COMP90038/test.py	/^from Graph.graph_list import Graph$/;"	kind:namespace	line:3
+Heap	../algorithm/COMP90038/PriorityQueue/heap.py	/^class Heap(object):$/;"	kind:class	line:3
+Heap	../algorithm/COMP90038/PriorityQueue/heap_sort.py	/^from heap import Heap$/;"	kind:namespace	line:2
+Heap	../algorithm/COMP90038/heap-test.py	/^from PriorityQueue.heap import Heap$/;"	kind:namespace	line:2
+HeapSort	../algorithm/COMP90038/PriorityQueue/heap_sort.py	/^class HeapSort(object):$/;"	kind:class	line:4
+HeapSort	../algorithm/COMP90038/heap-test.py	/^from PriorityQueue.heap_sort import HeapSort$/;"	kind:namespace	line:3
+InsertionSort	../algorithm/COMP90038/Sorting/insertion_sort.py	/^def InsertionSort(Arr):$/;"	kind:function	line:1
+IsEmpty	../algorithm/COMP90038/comp90038-assignment1/Test.py	/^    def IsEmpty(self):$/;"	kind:member	line:30
+MPI	../mpi-tutorial/hello-goodbye.py	/^from mpi4py import MPI$/;"	kind:namespace	line:1
+MPI	../mpi-tutorial/hello.py	/^from mpi4py import MPI$/;"	kind:namespace	line:1
+MyQUEUE	../algorithm/COMP90038/comp90038-assignment1/Test.py	/^class MyQUEUE: # just an implementation of a queue$/;"	kind:class	line:9
+Mystery	../algorithm/COMP90038/comp90038-assignment1/Mystery.py	/^def Mystery(Arr):$/;"	kind:function	line:3
+Mystery	../algorithm/Mystery.py	/^def Mystery(arr):$/;"	kind:function	line:3
+Mystery.py	../algorithm/COMP90038/comp90038-assignment1/Mystery.py	1;"	kind:file	line:1
+Mystery.py	../algorithm/Mystery.py	1;"	kind:file	line:1
+Queue	../algorithm/COMP90038/Queue/Queue.py	/^class Queue(object):$/;"	kind:class	line:1
+Queue	../algorithm/COMP90038/Tree/binary_tree_problems.py	/^from Queue import Queue$/;"	kind:namespace	line:4
+Queue	../algorithm/COMP90038/queue_test.py	/^from Queue.Queue import Queue$/;"	kind:namespace	line:1
+Queue.py	../algorithm/COMP90038/Queue/Queue.py	1;"	kind:file	line:1
+RandomBSTNode	../algorithm/COMP90038/comp90038-assignment2/random_bst.py	/^class RandomBSTNode(object):$/;"	kind:class	line:4
+SelectionSort	../algorithm/COMP90038/Sorting/selection_sort.py	/^def SelectionSort(text):$/;"	kind:function	line:1
+Test.py	../algorithm/COMP90038/comp90038-assignment1/Test.py	1;"	kind:file	line:1
+TopologicalSort.py	../algorithm/COMP90038/Graph/TopologicalSort.py	1;"	kind:file	line:1
+TreeConstruction.py	../algorithm/TreeConstruction.py	1;"	kind:file	line:1
+TreeDiameter.py	../algorithm/TreeDiameter.py	1;"	kind:file	line:1
+Vertex	../algorithm/COMP90038/Graph/graph_list.py	/^from vertex_list import Vertex$/;"	kind:namespace	line:1
+Vertex	../algorithm/COMP90038/Graph/graphs_matrix.py	/^from vertex import Vertex$/;"	kind:namespace	line:2
+Vertex	../algorithm/COMP90038/Graph/vertex_list.py	/^class Vertex:$/;"	kind:class	line:3
+Vertex	../algorithm/COMP90038/Graph/vertex_matrix.py	/^class Vertex:$/;"	kind:class	line:1
+X	../algorithm/COMP90038/comp90038-assignment2/pareto_optimal.py	/^X = []$/;"	kind:variable	line:8
+Y	../algorithm/COMP90038/comp90038-assignment2/pareto_optimal.py	/^Y = []$/;"	kind:variable	line:9
+__init__	../algorithm/COMP90038/Graph/graph.py	/^    def __init__(self, graph_dict={}):$/;"	kind:member	line:3
+__init__	../algorithm/COMP90038/Graph/graph_list.py	/^    def __init__(self, is_directed=False):$/;"	kind:member	line:4
+__init__	../algorithm/COMP90038/Graph/graphs_matrix.py	/^    def __init__(self, num_vertices, is_directed=False, cost=0):$/;"	kind:member	line:6
+__init__	../algorithm/COMP90038/Graph/vertex_list.py	/^    def __init__(self, node):$/;"	kind:member	line:5
+__init__	../algorithm/COMP90038/Graph/vertex_matrix.py	/^    def __init__(self, node):$/;"	kind:member	line:2
+__init__	../algorithm/COMP90038/PriorityQueue/heap.py	/^    def __init__(self, heap_list=None):$/;"	kind:member	line:7
+__init__	../algorithm/COMP90038/PriorityQueue/heap_sort.py	/^    def __init__(self, arr):$/;"	kind:member	line:6
+__init__	../algorithm/COMP90038/Queue/Queue.py	/^    def __init__(self, limit = 5):$/;"	kind:member	line:2
+__init__	../algorithm/COMP90038/Tree/avl_tree.py	/^    def __init__(self):$/;"	kind:member	line:12
+__init__	../algorithm/COMP90038/Tree/avl_tree.py	/^    def __init__(self, data, balance_factor, left, right):$/;"	kind:member	line:4
+__init__	../algorithm/COMP90038/Tree/binary_tree.py	/^    def __init__(self, data):$/;"	kind:member	line:4
+__init__	../algorithm/COMP90038/Tree/bst.py	/^    def __init__(self, data):$/;"	kind:member	line:3
+__init__	../algorithm/COMP90038/comp90038-assignment1/Test.py	/^    def __init__(self):$/;"	kind:member	line:11
+__init__	../algorithm/COMP90038/comp90038-assignment2/random_bst.py	/^    def __init__(self, key, priority):$/;"	kind:member	line:6
+__init__.py	../algorithm/COMP90038/Graph/__init__.py	1;"	kind:file	line:1
+__init__.py	../algorithm/COMP90038/PriorityQueue/__init__.py	1;"	kind:file	line:1
+__init__.py	../algorithm/COMP90038/Queue/__init__.py	1;"	kind:file	line:1
+__init__.py	../algorithm/COMP90038/Tree/__init__.py	1;"	kind:file	line:1
+__init__.py	../algorithm/COMP90038/__init__.py	1;"	kind:file	line:1
+__iter__	../algorithm/COMP90038/Graph/graph_list.py	/^    def __iter__(self):$/;"	kind:member	line:9
+__str__	../algorithm/COMP90038/Graph/graph.py	/^    def __str__(self):$/;"	kind:member	line:48
+__str__	../algorithm/COMP90038/Graph/vertex_list.py	/^    def __str__(self):$/;"	kind:member	line:49
+__str__	../algorithm/COMP90038/Graph/vertex_matrix.py	/^    def __str__(self):$/;"	kind:member	line:22
+add_edge	../algorithm/COMP90038/Graph/graph.py	/^    def add_edge(self, edge):$/;"	kind:member	line:24
+add_edge	../algorithm/COMP90038/Graph/graph_list.py	/^    def add_edge(self, frm, to, cost=0):$/;"	kind:member	line:24
+add_edge	../algorithm/COMP90038/Graph/graphs_matrix.py	/^    def add_edge(self, frm, to, cost=0):$/;"	kind:member	line:26
+add_neighbor	../algorithm/COMP90038/Graph/vertex_list.py	/^    def add_neighbor(self, neighbor, weight=0):$/;"	kind:member	line:19
+add_neighbor	../algorithm/COMP90038/Graph/vertex_matrix.py	/^    def add_neighbor(self, neighbor, G):$/;"	kind:member	line:7
+add_vertex	../algorithm/COMP90038/Graph/graph.py	/^    def add_vertex(self, vertex):$/;"	kind:member	line:15
+add_vertex	../algorithm/COMP90038/Graph/graph_list.py	/^    def add_vertex(self, node):$/;"	kind:member	line:12
+after_sort	../algorithm/COMP90038/heap-test.py	/^    after_sort = [node for node in heap_sort.heap_list]$/;"	kind:variable	line:43
+alist	../algorithm/COMP90038/Sorting/selection_sort.py	/^alist = [54,26,93,17,77,31,44,55,20]$/;"	kind:variable	line:33
+arr	../algorithm/COMP90038/comp90038-assignment1/Test.py	/^arr = {'A': 0, 'B': 0, 'C': 0, 'D': 0, 'E': 0, 'F': 0}$/;"	kind:variable	line:39
+arr	../algorithm/COMP90038/comp90038-assignment1/stepping_stones.py	/^arr = {}$/;"	kind:variable	line:80
+avl_tree.py	../algorithm/COMP90038/Tree/avl_tree.py	1;"	kind:file	line:1
+binary_tree.py	../algorithm/COMP90038/Tree/binary_tree.py	1;"	kind:file	line:1
+binary_tree_problems.py	../algorithm/COMP90038/Tree/binary_tree_problems.py	1;"	kind:file	line:1
+binary_tree_traversal.py	../algorithm/COMP90038/Tree/binary_tree_traversal.py	1;"	kind:file	line:1
+bst.py	../algorithm/COMP90038/Tree/bst.py	1;"	kind:file	line:1
+bubble_sort	../algorithm/COMP90038/Sorting/bubble_sort.py	/^def bubble_sort(A):$/;"	kind:function	line:1
+bubble_sort.py	../algorithm/COMP90038/Sorting/bubble_sort.py	1;"	kind:file	line:1
+build_heap	../algorithm/COMP90038/PriorityQueue/heap.py	/^    def build_heap(self, arr):$/;"	kind:member	line:87
+comm	../mpi-tutorial/hello-goodbye.py	/^comm = MPI.COMM_WORLD$/;"	kind:variable	line:3
+comm	../mpi-tutorial/hello.py	/^comm = MPI.COMM_WORLD$/;"	kind:variable	line:3
+compare-the-triplets.py	../hacker-rank/compare-the-triplets.py	1;"	kind:file	line:1
+constructTree	../algorithm/TreeConstruction.py	/^def constructTree(degree):$/;"	kind:function	line:1
+convertToBinary	../hacker-rank/sample_test.py	/^def convertToBinary(number):$/;"	kind:function	line:27
+de_queue	../algorithm/COMP90038/Queue/Queue.py	/^    def de_queue(self):$/;"	kind:member	line:29
+delete_max	../algorithm/COMP90038/PriorityQueue/heap.py	/^    def delete_max(self):$/;"	kind:member	line:33
+dequeue	../algorithm/COMP90038/comp90038-assignment1/Test.py	/^    def dequeue(self):$/;"	kind:member	line:17
+dfs	../algorithm/COMP90038/Graph/TopologicalSort.py	/^def dfs(G, current_vert, visited, sequence):$/;"	kind:function	line:6
+dfs	../algorithm/COMP90038/Graph/dfs.py	/^def dfs(G, currentVert, visited):$/;"	kind:function	line:4
+dfs.py	../algorithm/COMP90038/Graph/dfs.py	1;"	kind:file	line:1
+diameter	../algorithm/TreeDiameter.py	/^def diameter(tree):$/;"	kind:function	line:21
+edges	../algorithm/COMP90038/Graph/graph.py	/^    def edges(self):$/;"	kind:member	line:11
+en_queue	../algorithm/COMP90038/Queue/Queue.py	/^    def en_queue(self, item):$/;"	kind:member	line:15
+enqueue	../algorithm/COMP90038/comp90038-assignment1/Test.py	/^    def enqueue(self,val):$/;"	kind:member	line:14
+find	../algorithm/COMP90038/Tree/bst.py	/^    def find(self, root, data):$/;"	kind:member	line:24
+findNumber	../hacker-rank/sample_test.py	/^def findNumber(arr, k):$/;"	kind:function	line:1
+find_max_binary_tree	../algorithm/COMP90038/Tree/binary_tree_problems.py	/^def find_max_binary_tree(root):$/;"	kind:function	line:8
+find_max_binary_tree_iterative	../algorithm/COMP90038/Tree/binary_tree_problems.py	/^def find_max_binary_tree_iterative(root):$/;"	kind:function	line:22
+find_min_max	../algorithm/min_max.py	/^def find_min_max(arr):$/;"	kind:function	line:1
+find_number_keys	../algorithm/COMP90038/comp90038-assignment1/FindNumberKeys.py	/^def find_number_keys(Arr, k):$/;"	kind:function	line:1
+find_number_keys_recursive	../algorithm/COMP90038/comp90038-assignment1/FindNumberKeys.py	/^def find_number_keys_recursive(Arr, lo, hi, k):$/;"	kind:function	line:11
+generate_edges	../algorithm/COMP90038/Graph/graph.py	/^    def generate_edges(self):$/;"	kind:member	line:35
+getMinimumUniqueSum	../algorithm/FB Hackathon Challenge/minimumUniqueSum.py	/^def getMinimumUniqueSum(arr):$/;"	kind:function	line:1
+get_connections	../algorithm/COMP90038/Graph/vertex_list.py	/^    def get_connections(self):$/;"	kind:member	line:22
+get_connections	../algorithm/COMP90038/Graph/vertex_matrix.py	/^    def get_connections(self, G):$/;"	kind:member	line:10
+get_data	../algorithm/COMP90038/Tree/binary_tree.py	/^    def get_data(self):$/;"	kind:member	line:12
+get_data	../algorithm/COMP90038/Tree/bst.py	/^    def get_data(self):$/;"	kind:member	line:12
+get_distance	../algorithm/COMP90038/Graph/vertex_list.py	/^    def get_distance(self):$/;"	kind:member	line:40
+get_edges	../algorithm/COMP90038/Graph/graph_list.py	/^    def get_edges(self):$/;"	kind:member	line:40
+get_edges	../algorithm/COMP90038/Graph/graphs_matrix.py	/^    def get_edges(self):$/;"	kind:member	line:45
+get_in_degree	../algorithm/COMP90038/Graph/vertex_list.py	/^    def get_in_degree(self):$/;"	kind:member	line:28
+get_left	../algorithm/COMP90038/Tree/binary_tree.py	/^    def get_left(self):$/;"	kind:member	line:16
+get_left	../algorithm/COMP90038/Tree/bst.py	/^    def get_left(self):$/;"	kind:member	line:16
+get_left	../algorithm/COMP90038/comp90038-assignment2/random_bst.py	/^    def get_left(self):$/;"	kind:member	line:17
+get_parent	../algorithm/COMP90038/comp90038-assignment2/random_bst.py	/^    def get_parent(self):$/;"	kind:member	line:29
+get_que	../algorithm/COMP90038/Queue/Queue.py	/^    def get_que(self):$/;"	kind:member	line:9
+get_right	../algorithm/COMP90038/Tree/binary_tree.py	/^    def get_right(self):$/;"	kind:member	line:20
+get_right	../algorithm/COMP90038/Tree/bst.py	/^    def get_right(self):$/;"	kind:member	line:20
+get_right	../algorithm/COMP90038/comp90038-assignment2/random_bst.py	/^    def get_right(self):$/;"	kind:member	line:23
+get_vertex	../algorithm/COMP90038/Graph/graph_list.py	/^    def get_vertex(self, n):$/;"	kind:member	line:18
+get_vertex	../algorithm/COMP90038/Graph/graphs_matrix.py	/^    def get_vertex(self, n):$/;"	kind:member	line:19
+get_vertex_ID	../algorithm/COMP90038/Graph/vertex_list.py	/^    def get_vertex_ID(self):$/;"	kind:member	line:31
+get_vertex_ID	../algorithm/COMP90038/Graph/vertex_matrix.py	/^    def get_vertex_ID(self):$/;"	kind:member	line:13
+get_vertices	../algorithm/COMP90038/Graph/graph_list.py	/^    def get_vertices(self):$/;"	kind:member	line:37
+get_vertices	../algorithm/COMP90038/Graph/graphs_matrix.py	/^    def get_vertices(self):$/;"	kind:member	line:32
+get_weight	../algorithm/COMP90038/Graph/vertex_list.py	/^    def get_weight(self, neighbor):$/;"	kind:member	line:34
+graph	../algorithm/COMP90038/comp90038-assignment1/Test.py	/^graph = {'A': ['B', 'C','E'],$/;"	kind:variable	line:2
+graph.py	../algorithm/COMP90038/Graph/graph.py	1;"	kind:file	line:1
+graph_a	../algorithm/COMP90038/comp90038-assignment1/stepping_stones.py	/^graph_a = [('A',['B', 'C']),$/;"	kind:variable	line:68
+graph_list.py	../algorithm/COMP90038/Graph/graph_list.py	1;"	kind:file	line:1
+graph_unsorted	../algorithm/COMP90038/comp90038-assignment1/stepping_stones.py	/^graph_unsorted = [(2, []),$/;"	kind:variable	line:58
+graphs_matrix.py	../algorithm/COMP90038/Graph/graphs_matrix.py	1;"	kind:file	line:1
+heap-test.py	../algorithm/COMP90038/heap-test.py	1;"	kind:file	line:1
+heap.py	../algorithm/COMP90038/PriorityQueue/heap.py	1;"	kind:file	line:1
+heap_array	../algorithm/COMP90038/heap-test.py	/^    heap_array = [31, 1, 21, 9, 10, 12, 18, 3, 2, 8, 7]$/;"	kind:variable	line:6
+heap_sort	../algorithm/COMP90038/heap-test.py	/^    heap_sort = HeapSort(sorted_arr)$/;"	kind:variable	line:41
+heap_sort.py	../algorithm/COMP90038/PriorityQueue/heap_sort.py	1;"	kind:file	line:1
+height	../algorithm/COMP90038/Tree/avl_tree.py	/^    def height(self, root):$/;"	kind:member	line:38
+hello-goodbye.py	../mpi-tutorial/hello-goodbye.py	1;"	kind:file	line:1
+hello.py	../mpi-tutorial/hello.py	1;"	kind:file	line:1
+in_order_print	../algorithm/COMP90038/Tree/avl_tree.py	/^    def in_order_print(self):$/;"	kind:member	line:15
+indexList	../algorithm/COMP90038/Sorting/selection_sort.py	/^indexList = [1,2,3,4,5,6,7,8,9]$/;"	kind:variable	line:32
+inorderTraversal	../algorithm/COMP90038/Tree/binary_tree_traversal.py	/^def inorderTraversal(root, result):$/;"	kind:function	line:11
+insert	../algorithm/COMP90038/PriorityQueue/heap.py	/^    def insert(self, node_val):$/;"	kind:member	line:44
+insert_left	../algorithm/COMP90038/Tree/binary_tree.py	/^    def insert_left(self, new_node):$/;"	kind:member	line:29
+insert_node	../algorithm/COMP90038/Tree/bst.py	/^    def insert_node(self, root, node):$/;"	kind:member	line:34
+insert_node	../algorithm/COMP90038/comp90038-assignment2/random_bst.py	/^def insert_node(root, node):$/;"	kind:function	line:33
+insert_right	../algorithm/COMP90038/Tree/binary_tree.py	/^    def insert_right(self, new_node):$/;"	kind:member	line:37
+insertion_sort.py	../algorithm/COMP90038/Sorting/insertion_sort.py	1;"	kind:file	line:1
+isPrime	../hacker-rank/sample_test.py	/^def isPrime(n):$/;"	kind:function	line:12
+is_empty	../algorithm/COMP90038/Queue/Queue.py	/^    def is_empty(self):$/;"	kind:member	line:12
+keys	../algorithm/COMP90038/comp90038-assignment1/FindNumberKeys.py	/^keys = find_number_keys_recursive(Arr, 0,  n - 1, 4)$/;"	kind:variable	line:27
+left_child	../algorithm/COMP90038/PriorityQueue/heap.py	/^    def left_child(self, index):$/;"	kind:member	line:21
+left_right_rotate	../algorithm/COMP90038/Tree/avl_tree.py	/^    def left_right_rotate(self, root):$/;"	kind:member	line:35
+max_child	../algorithm/COMP90038/PriorityQueue/heap.py	/^    def max_child(self, i):$/;"	kind:member	line:63
+max_data	../algorithm/COMP90038/Tree/binary_tree_problems.py	/^    max_data = 0$/;"	kind:variable	line:42
+mid-term-5.py	../algorithm/mid-term-5.py	1;"	kind:file	line:1
+min1	../algorithm/COMP90038/SampleExam2017/min1.py	/^def min1(arr):$/;"	kind:function	line:1
+min1.py	../algorithm/COMP90038/SampleExam2017/min1.py	1;"	kind:file	line:1
+min_max.py	../algorithm/min_max.py	1;"	kind:file	line:1
+minimumUniqueSum.py	../algorithm/FB Hackathon Challenge/minimumUniqueSum.py	1;"	kind:file	line:1
+n	../algorithm/COMP90038/comp90038-assignment1/FindNumberKeys.py	/^n = len(Arr)$/;"	kind:variable	line:26
+np	../algorithm/COMP90038/comp90038-assignment1/Mystery.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../algorithm/Mystery.py	/^import numpy as np$/;"	kind:namespace	line:1
+parent	../algorithm/COMP90038/PriorityQueue/heap.py	/^    def parent(self, index):$/;"	kind:member	line:15
+pareto_optimal	../algorithm/COMP90038/comp90038-assignment2/pareto_optimal.py	/^pareto_optimal = []$/;"	kind:variable	line:15
+pareto_optimal.py	../algorithm/COMP90038/comp90038-assignment2/pareto_optimal.py	1;"	kind:file	line:1
+path_queue	../algorithm/COMP90038/comp90038-assignment1/Test.py	/^path_queue = MyQUEUE() # now we make a queue$/;"	kind:variable	line:37
+percolate_down	../algorithm/COMP90038/PriorityQueue/heap.py	/^    def percolate_down(self, i):$/;"	kind:member	line:49
+percolate_down	../algorithm/COMP90038/PriorityQueue/heap_sort.py	/^    def percolate_down(self, arr, first, last):$/;"	kind:member	line:35
+percolate_up	../algorithm/COMP90038/PriorityQueue/heap.py	/^    def percolate_up(self, i):$/;"	kind:member	line:76
+percolate_up	../algorithm/COMP90038/comp90038-assignment2/random_bst.py	/^def percolate_up(node):$/;"	kind:function	line:90
+point	../algorithm/COMP90038/comp90038-assignment2/pareto_optimal.py	/^point = [$/;"	kind:variable	line:3
+postorderTraversal	../algorithm/COMP90038/Tree/binary_tree_traversal.py	/^def postorderTraversal(root, result):$/;"	kind:function	line:19
+pprint	../algorithm/COMP90038/comp90038-assignment1/stepping_stones.py	/^from pprint import pprint$/;"	kind:namespace	line:3
+preorderTraversal	../algorithm/COMP90038/Tree/binary_tree_traversal.py	/^def preorderTraversal(root, result):$/;"	kind:function	line:4
+print_function	../algorithm/COMP90038/Graph/TopologicalSort.py	/^from __future__ import print_function$/;"	kind:namespace	line:1
+print_function	../algorithm/COMP90038/Graph/dfs.py	/^from __future__ import print_function$/;"	kind:namespace	line:1
+print_function	../algorithm/COMP90038/Graph/graphs_matrix.py	/^from __future__ import print_function$/;"	kind:namespace	line:1
+print_function	../algorithm/COMP90038/PriorityQueue/heap.py	/^from __future__ import print_function$/;"	kind:namespace	line:1
+print_function	../algorithm/COMP90038/PriorityQueue/heap_sort.py	/^from __future__ import print_function$/;"	kind:namespace	line:1
+print_function	../algorithm/COMP90038/Tree/avl_tree.py	/^from __future__ import print_function$/;"	kind:namespace	line:1
+print_function	../algorithm/COMP90038/Tree/binary_tree_problems.py	/^from __future__ import print_function$/;"	kind:namespace	line:1
+print_function	../algorithm/COMP90038/Tree/binary_tree_traversal.py	/^from __future__ import print_function$/;"	kind:namespace	line:1
+print_function	../algorithm/COMP90038/comp90038-assignment2/pareto_optimal.py	/^from __future__ import print_function$/;"	kind:namespace	line:1
+print_function	../algorithm/COMP90038/comp90038-assignment2/random_bst.py	/^from __future__ import print_function$/;"	kind:namespace	line:1
+print_function	../algorithm/COMP90038/heap-test.py	/^from __future__ import print_function$/;"	kind:namespace	line:1
+print_function	../algorithm/COMP90038/test.py	/^from __future__ import print_function$/;"	kind:namespace	line:1
+print_function	../algorithm/mid-term-5.py	/^from __future__ import print_function$/;"	kind:namespace	line:1
+print_matrix	../algorithm/COMP90038/Graph/graphs_matrix.py	/^    def print_matrix(self):$/;"	kind:member	line:38
+print_with_child	../algorithm/COMP90038/comp90038-assignment2/random_bst.py	/^def print_with_child(node):$/;"	kind:function	line:106
+print_with_parent	../algorithm/COMP90038/comp90038-assignment2/random_bst.py	/^def print_with_parent(node):$/;"	kind:function	line:101
+process	../algorithm/TreeDiameter.py	/^def process(tree):$/;"	kind:function	line:1
+q	../algorithm/COMP90038/queue_test.py	/^    q = Queue()$/;"	kind:variable	line:4
+queue_front	../algorithm/COMP90038/Queue/Queue.py	/^    def queue_front(self):$/;"	kind:member	line:47
+queue_rear	../algorithm/COMP90038/Queue/Queue.py	/^    def queue_rear(self):$/;"	kind:member	line:41
+queue_test.py	../algorithm/COMP90038/queue_test.py	1;"	kind:file	line:1
+random.py	../random-stuff/random.py	1;"	kind:file	line:1
+random_arr	../algorithm/COMP90038/heap-test.py	/^    random_arr = [1, 5, 14, 2, 10, 21, 18, 3, 11, 8, 7, 12]$/;"	kind:variable	line:26
+random_bst.py	../algorithm/COMP90038/comp90038-assignment2/random_bst.py	1;"	kind:file	line:1
+random_bst_test.py	../algorithm/COMP90038/comp90038-assignment2/random_bst_test.py	1;"	kind:file	line:1
+rank	../mpi-tutorial/hello-goodbye.py	/^rank = comm.Get_rank()$/;"	kind:variable	line:5
+rank	../mpi-tutorial/hello.py	/^rank = comm.Get_rank()$/;"	kind:variable	line:4
+rec_height	../algorithm/COMP90038/Tree/avl_tree.py	/^    def rec_height(self, root):$/;"	kind:member	line:41
+rec_in_order_print	../algorithm/COMP90038/Tree/avl_tree.py	/^    def rec_in_order_print(self, root):$/;"	kind:member	line:18
+right_child	../algorithm/COMP90038/PriorityQueue/heap.py	/^    def right_child(self, index):$/;"	kind:member	line:27
+root	../algorithm/COMP90038/Tree/binary_tree_problems.py	/^    root = BinaryTreeNode(1)$/;"	kind:variable	line:41
+rotate_left	../algorithm/COMP90038/comp90038-assignment2/random_bst.py	/^def rotate_left(node):$/;"	kind:function	line:52
+rotate_right	../algorithm/COMP90038/comp90038-assignment2/random_bst.py	/^def rotate_right(node):$/;"	kind:function	line:71
+s	../algorithm/COMP90038/comp90038-assignment1/stepping_stones.py	/^s = 'A'$/;"	kind:variable	line:84
+sample_test.py	../hacker-rank/sample_test.py	1;"	kind:file	line:1
+search	../algorithm/mid-term-5.py	/^def search(arr, lo, hi):$/;"	kind:function	line:4
+selectionSort2	../algorithm/COMP90038/Sorting/selection_sort.py	/^def selectionSort2(alist, indexList):$/;"	kind:function	line:18
+selectionSort2	../algorithm/TreeConstruction.py	/^def selectionSort2(alist, indexList):$/;"	kind:function	line:29
+selection_sort.py	../algorithm/COMP90038/Sorting/selection_sort.py	1;"	kind:file	line:1
+set_data	../algorithm/COMP90038/Tree/binary_tree.py	/^    def set_data(self, data):$/;"	kind:member	line:9
+set_data	../algorithm/COMP90038/Tree/bst.py	/^    def set_data(self, data):$/;"	kind:member	line:8
+set_distance	../algorithm/COMP90038/Graph/vertex_list.py	/^    def set_distance(self, dist):$/;"	kind:member	line:37
+set_in_degree	../algorithm/COMP90038/Graph/vertex_list.py	/^    def set_in_degree(self, in_degree):$/;"	kind:member	line:25
+set_left	../algorithm/COMP90038/Tree/binary_tree.py	/^    def set_left(self, left):$/;"	kind:member	line:23
+set_left	../algorithm/COMP90038/comp90038-assignment2/random_bst.py	/^    def set_left(self, node):$/;"	kind:member	line:14
+set_parent	../algorithm/COMP90038/comp90038-assignment2/random_bst.py	/^    def set_parent(self, root):$/;"	kind:member	line:26
+set_previous	../algorithm/COMP90038/Graph/vertex_list.py	/^    def set_previous(self, prev):$/;"	kind:member	line:43
+set_right	../algorithm/COMP90038/Tree/binary_tree.py	/^    def set_right(self, right):$/;"	kind:member	line:26
+set_right	../algorithm/COMP90038/comp90038-assignment2/random_bst.py	/^    def set_right(self, node):$/;"	kind:member	line:20
+set_vertex	../algorithm/COMP90038/Graph/graphs_matrix.py	/^    def set_vertex(self, vtx, id):$/;"	kind:member	line:15
+set_vertex_ID	../algorithm/COMP90038/Graph/vertex_matrix.py	/^    def set_vertex_ID(self, id):$/;"	kind:member	line:16
+set_visited	../algorithm/COMP90038/Graph/vertex_list.py	/^    def set_visited(self):$/;"	kind:member	line:46
+set_visited	../algorithm/COMP90038/Graph/vertex_matrix.py	/^    def set_visited(self):$/;"	kind:member	line:19
+sim	../random-stuff/random.py	/^def sim(string1, string2):$/;"	kind:function	line:1
+single_left_rotate	../algorithm/COMP90038/Tree/avl_tree.py	/^    def single_left_rotate(self, root):$/;"	kind:member	line:30
+single_right_rotate	../algorithm/COMP90038/Tree/avl_tree.py	/^    def single_right_rotate(self, root):$/;"	kind:member	line:24
+size	../mpi-tutorial/hello.py	/^size = comm.Get_size()$/;"	kind:variable	line:5
+sort	../algorithm/COMP90038/PriorityQueue/heap_sort.py	/^    def sort(self):$/;"	kind:member	line:9
+sort_2	../algorithm/COMP90038/PriorityQueue/heap_sort.py	/^    def sort_2(self, arr):$/;"	kind:member	line:24
+sorted_arr	../algorithm/COMP90038/heap-test.py	/^    sorted_arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]$/;"	kind:variable	line:27
+staircase	../algorithm/FB Hackathon Challenge/staircase.py	/^def staircase(n):$/;"	kind:function	line:1
+staircase.py	../algorithm/FB Hackathon Challenge/staircase.py	1;"	kind:file	line:1
+stepping_stones.py	../algorithm/COMP90038/comp90038-assignment1/stepping_stones.py	1;"	kind:file	line:1
+swap	../algorithm/COMP90038/PriorityQueue/heap_sort.py	/^    def swap(self, arr, x, y):$/;"	kind:member	line:55
+sys	../algorithm/COMP90038/Graph/vertex_list.py	/^import sys$/;"	kind:namespace	line:1
+sys	../algorithm/COMP90038/Tree/binary_tree_problems.py	/^import sys$/;"	kind:namespace	line:2
+t	../algorithm/COMP90038/comp90038-assignment1/stepping_stones.py	/^t = 'H'$/;"	kind:variable	line:85
+temp_point	../algorithm/COMP90038/comp90038-assignment2/pareto_optimal.py	/^temp_point = point[len(point) - 1]$/;"	kind:variable	line:13
+test.py	../algorithm/COMP90038/test.py	1;"	kind:file	line:1
+testCase2	../algorithm/TreeConstruction.py	/^testCase2 = [1,2,2,1,1,3]$/;"	kind:variable	line:45
+timeConversion	../hacker-rank/sample_test.py	/^def timeConversion(ampmtime):$/;"	kind:function	line:39
+toBin	../hacker-rank/sample_test.py	/^def toBin(n):$/;"	kind:function	line:35
+top_sort	../algorithm/COMP90038/comp90038-assignment1/stepping_stones.py	/^top_sort = topolgical_sort(graph_a)$/;"	kind:variable	line:79
+topolgical_sort	../algorithm/COMP90038/comp90038-assignment1/stepping_stones.py	/^def topolgical_sort(graph_unsorted):$/;"	kind:function	line:5
+vertex_list.py	../algorithm/COMP90038/Graph/vertex_list.py	1;"	kind:file	line:1
+vertex_matrix.py	../algorithm/COMP90038/Graph/vertex_matrix.py	1;"	kind:file	line:1
+vertices	../algorithm/COMP90038/Graph/graph.py	/^    def vertices(self):$/;"	kind:member	line:7
+y_max	../algorithm/COMP90038/comp90038-assignment2/pareto_optimal.py	/^        y_max = point[i][1]$/;"	kind:variable	line:21
+y_max	../algorithm/COMP90038/comp90038-assignment2/pareto_optimal.py	/^y_max = temp_point[1]$/;"	kind:variable	line:14
