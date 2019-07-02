@@ -1,0 +1,73 @@
+,,,Response Distribution - Fav/Neut/Unfav,,,,,,,,,Quartiles,,,,,,,,,Key Drivers,,
+,,,New Tech 200-500,,,New Tech <200,,,New Tech >500,,,New Tech 200-500,,,New Tech <200,,,New Tech >500,,,New Tech <200,New Tech 200-500,New Tech >500
+,Factor,Question,Fav,Neutral,Unfav,Fav,Neutral,Unfav,Fav,Neutral,Unfav,Fav25p,Fav50p,Fav75p,Fav25p,Fav50p,Fav75p,Fav25p,Fav50p,Fav75p,KD,KD,KD
+act.1,Action,I have been provided an opportunity to see and discuss recent employee survey results,49,35,16,63,25,12,54,30,16,38,49,64,40,63,71,46,54,63,6,49,25
+act.2,Action,"My manager, or someone else, has communicated some clear actions based on recent employee survey results",44,36,20,44,39,17,51,32,17,31,44,50,33,44,59,42,51,56,2,48,42
+act.3,Action,I have seen positive changes taking place based on recent employee survey results,44,40,16,46,40,14,44,41,15,31,44,58,34,46,58,40,44,52,19,45,36
+act.4,Action,I believe action will take place as a result of this survey,58,28,14,61,27,12,53,32,15,47,58,63,52,61,70,45,53,66,3,8,23
+ali.1,Alignment & Involvement,I am appropriately involved in decisions that affect my work,70,18,12,72,18,10,72,17,11,66,70,74,66,72,77,64,72,75,39,23,26
+ali.2,Alignment & Involvement,I am happy with my current role relative to what was described to me,74,16,10,74,18,8,74,17,9,70,74,77,68,74,80,68,74,78,5,13,2
+ali.3,Alignment & Involvement,"I believe my total compensation (base salary+any bonuses+benefits+equity) is fair, relative to similar roles at other companies",53,27,20,55,25,20,54,28,18,46,53,58,48,55,62,46,54,62,15,34,32
+ali.4,Alignment & Involvement,I know how my work contributes to the goals of [Company],90,7,3,91,7,2,90,8,2,88,90,92,88,91,94,86,90,92,26,16,29
+ali.5,Alignment & Involvement,I know what I need to do to be successful in my role,82,12,6,82,13,5,83,12,5,78,82,86,78,82,88,80,83,86,47,36,48
+col.1,Collaboration & Communication,At [Company] there is open and honest two-way communication,64,24,12,72,20,8,64,25,11,59,64,71,60,72,79,59,64,71,14,11,18
+col.2,Collaboration & Communication,Most people here make a good effort to consult other staff where appropriate,73,20,7,78,17,5,72,20,8,69,73,78,72,78,84,68,72,77,25,24,28
+col.3,Collaboration & Communication,Other departments at [Company] collaborate well with us to get the job done,62,24,14,64,25,11,60,26,14,54,62,67,56,64,73,53,60,68,23,21,33
+con.1,Company Confidence,"The products and services [Company] provides are as good as, or better than, our main competitors",71,24,5,74,22,4,76,20,4,60,71,81,60,74,84,61,76,84,45,27,11
+con.2,Company Confidence,"[Company] effectively directs resources (funding, people and effort) towards company goals",54,31,15,59,26,15,55,31,14,44,54,65,50,59,70,46,55,66,9,7,10
+con.3,Company Confidence,[Company] is in a position to really succeed over the next three years,78,18,4,76,20,4,78,18,4,67,78,83,64,76,85,66,78,85,7,1,19
+dev.1,Learning & Development,I am given opportunities to develop skills relevant to my interests,70,20,10,68,22,10,64,24,12,64,70,72,60,68,73,60,64,67,24,29,39
+dev.2,Learning & Development,I believe there are good career opportunities for me at [Company],59,27,14,62,26,12,61,25,14,55,59,68,54,62,71,56,61,67,20,5,13
+dev.3,Learning & Development,I have access to the learning and development I need to do my job well,67,23,10,67,24,9,67,23,10,62,67,72,59,67,74,60,67,74,42,33,31
+dev.4,Learning & Development,My manager (or someone in management) has shown a genuine interest in my career aspirations,71,18,11,70,20,10,68,20,12,66,71,75,64,70,78,63,68,74,41,39,43
+dev.5,Learning & Development,[Company] is a great company for me to make a contribution to my development,76,17,7,77,18,5,73,20,7,70,76,80,70,77,83,66,73,78,1,3,1
+ena.1,Enablement,I have access to the things I need to do my job well,76,16,8,78,15,7,74,17,9,70,76,79,71,78,82,68,74,79,17,17,40
+ena.2,Enablement,Our physical workspace is enjoyable to work in,78,14,8,75,17,8,75,15,10,69,78,83,67,75,86,66,75,80,33,46,49
+ena.3,Enablement,The information I need to do my job effectively is readily available,69,21,10,70,21,9,66,22,12,64,69,72,62,70,76,62,66,74,34,18,16
+ena.4,Enablement,We have enough autonomy to perform our jobs effectively,82,12,6,84,11,5,84,10,6,79,82,85,80,84,89,78,84,86,29,20,20
+ena.5,Enablement,Most of the systems and processes here support us getting our work done effectively,54,27,19,63,24,13,60,24,16,50,54,65,53,63,72,50,60,66,37,22,27
+eng.1,Engagement,I would recommend [Company] as a great place to work,84,12,4,86,11,3,81,15,4,76,84,88,75,86,91,73,81,88,,,
+eng.2,Engagement,[Company] motivates me to go beyond what I would in a similar role elsewhere,70,22,8,73,21,6,68,23,9,62,70,76,66,73,80,58,68,73,,,
+eng.3,Engagement,I am proud to work for [Company],85,13,2,87,11,2,85,12,3,82,85,92,80,87,93,78,85,90,,,
+eng.4,Engagement,I rarely think about looking for a job at another company,54,24,22,56,25,19,53,26,21,48,54,60,48,56,68,48,53,62,,,
+eng.5,Engagement,I see myself still working at [Company] in two years time,60,26,14,60,27,13,63,25,12,50,60,70,51,60,70,57,63,69,,,
+fee.1,Feedback & Recognition,I receive appropriate recognition for good work at [Company],68,21,11,70,21,9,65,23,12,64,68,71,63,70,75,61,65,72,12,31,17
+fee.2,Feedback & Recognition,My job performance is evaluated fairly,70,21,9,73,21,6,71,22,7,65,70,74,63,73,76,67,71,76,43,40,41
+fee.3,Feedback & Recognition,When it is clear that someone is not delivering in their role we do something about it,44,36,20,49,36,15,49,33,18,38,44,50,40,49,58,42,49,55,36,32,46
+fee.4,Feedback & Recognition,"Generally, the right people are rewarded and recognized at [Company]",58,28,14,63,28,9,59,28,13,50,58,62,54,63,70,52,59,63,30,14,21
+inn.1,Innovation,At [Company] we act on promising new or innovative ideas,64,25,11,68,25,7,64,28,8,56,64,73,61,68,77,57,64,72,21,9,5
+inn.2,Innovation,We are encouraged to be innovative even though some of our initiatives may not succeed,72,19,9,76,17,7,74,18,8,69,72,77,69,76,82,67,74,77,16,12,8
+lea.1,Leadership,I have confidence in the leaders at [Company],69,21,10,76,18,6,76,18,6,60,69,82,68,76,86,65,76,82,11,4,3
+lea.2,Leadership,The leaders at [Company] demonstrate that people are important to the company's success,66,22,12,77,15,8,70,20,10,58,66,77,63,77,83,62,70,75,13,10,4
+lea.3,Leadership,The leaders at [Company] have communicated a vision that motivates me,66,24,10,71,21,8,68,22,10,59,66,76,61,71,82,55,68,74,18,6,6
+lea.4,Leadership,The leaders at [Company] keep people informed about what is happening,66,22,12,71,19,10,68,21,11,62,66,73,60,71,81,59,68,76,27,25,22
+man.1,Management,My manager genuinely cares about my wellbeing,86,10,4,88,9,3,86,10,4,82,86,89,83,88,91,81,86,88,44,38,24
+man.2,Management,My manager gives me useful feedback on how well I am performing,74,16,10,70,20,10,74,17,9,70,74,78,65,70,77,70,74,80,48,43,45
+man.3,Management,My manager is a great role model for employees,78,15,7,78,16,6,76,16,8,74,78,81,74,78,83,70,76,80,28,37,7
+man.4,Management,My manager keeps me informed about what is happening,80,14,6,80,13,7,80,13,7,76,80,83,74,80,85,74,80,83,38,42,35
+ser.1,Service & Quality Focus,Day-to-day decisions here demonstrate that quality and improvement are top priorities,61,25,14,68,22,10,65,25,10,55,61,70,57,68,74,55,65,72,4,2,14
+ser.2,Service & Quality Focus,We acknowledge people who deliver outstanding service here,66,22,12,75,18,7,68,22,10,62,66,73,65,75,82,62,68,73,31,26,12
+soc.1,Social Connection,[Company] really allows us to make a positive difference,74,22,4,70,26,4,72,25,3,63,74,82,62,70,81,66,72,82,8,19,9
+soc.2,Social Connection,"[Company]'s commitment to social responsibility (e_g_ community support, sustainability, etc_) is genuine",72,22,6,62,30,8,72,23,5,63,72,77,47,62,75,59,72,85,10,44,15
+tea.1,Teamwork & Ownership,I feel I am part of a team,84,10,6,84,11,5,83,11,6,82,84,88,80,84,88,79,83,86,32,15,37
+tea.2,Teamwork & Ownership,We hold ourselves and our team members accountable for results,76,16,8,76,16,8,80,14,6,73,76,83,69,76,83,77,80,85,35,28,44
+tea.3,Teamwork & Ownership,Workloads are divided fairly among people where I work,64,21,15,64,23,13,62,24,14,59,64,67,56,64,72,59,62,69,22,30,30
+wli.1,Work Life Blend,"Generally, I believe my workload is reasonable for my role",74,15,11,74,16,10,71,18,11,69,74,78,68,74,80,66,71,76,46,35,34
+wli.2,Work Life Blend,We are genuinely supported if we choose to make use of flexible working arrangements,80,15,5,82,13,5,82,13,5,78,80,86,73,82,88,75,82,84,40,41,38
+wli.3,Work Life Blend,I am able to arrange time out from work when I need to,87,9,4,90,7,3,85,10,5,86,87,92,83,90,94,78,85,88,49,47,47
+,,,,,,,,,,,,,,,,,,,,,,,
+,Action,,49,35,17,50,35,14,49,35,16,37,49,59,40,54,65,43,51,59,,,
+,Alignment & Involvement,,74,16,10,75,16,9,75,16,9,70,74,77,70,75,80,69,75,79,,,
+,Collaboration & Communication,,66,23,11,71,21,8,65,24,11,61,66,72,63,71,79,60,65,72,,,
+,Company Confidence,,68,24,8,70,23,8,70,23,7,57,68,76,58,70,80,58,70,78,,,
+,Enablement,,72,18,10,74,18,8,72,18,11,66,72,77,67,74,81,65,72,77,,,
+,Engagement,,71,19,10,72,19,9,70,20,10,64,71,77,64,72,80,63,70,76,,,
+,Feedback & Recognition,,60,27,14,64,27,10,61,27,13,54,60,64,55,64,70,56,61,67,,,
+,Innovation,,68,22,10,72,21,7,69,23,8,63,68,75,65,72,80,62,69,75,,,
+,Leadership,,67,22,11,74,18,8,71,20,9,60,67,77,63,74,83,60,71,77,,,
+,Learning & Development,,69,21,10,69,22,9,67,22,11,63,69,73,61,69,76,61,67,72,,,
+,Management,,80,14,7,79,15,7,79,14,7,76,80,83,74,79,84,74,79,83,,,
+,Service & Quality Focus,,64,24,13,72,20,9,67,24,10,59,64,72,61,72,78,59,67,73,,,
+,Social Connection,,73,22,5,66,28,6,72,24,4,63,73,80,55,66,78,63,72,84,,,
+,Teamwork & Ownership,,75,16,10,75,17,9,75,16,9,71,75,79,68,75,81,72,75,80,,,
+,Work Life Blend,,80,13,7,82,12,6,79,14,7,78,80,85,75,82,87,73,79,83,,,
