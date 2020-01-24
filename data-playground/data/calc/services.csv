@@ -1,0 +1,33 @@
+city,service_type,country,price_type,Cheap,Moderate,Expensive
+Adelaide,gym,Australia,Weekly,10,14,25
+Adelaide,haircuts,Australia,Weekly,6,14,21
+Adelaide,cosmetics,Australia,Weekly,4,8,15
+Adelaide,mobilePlan,Australia,Weekly,10,15,25
+Brisbane,gym,Australia,Weekly,13,14,25
+Brisbane,haircuts,Australia,Weekly,13,18,29
+Brisbane,cosmetics,Australia,Weekly,4,8,15
+Brisbane,mobilePlan,Australia,Weekly,10,15,25
+Canberra,gym,Australia,Weekly,6,14,16
+Canberra,haircuts,Australia,Weekly,9,24,31
+Canberra,cosmetics,Australia,Weekly,4,8,15
+Canberra,mobilePlan,Australia,Weekly,10,15,25
+Gold Coast,gym,Australia,Weekly,16,25,30
+Gold Coast,haircuts,Australia,Weekly,8,19,29
+Gold Coast,cosmetics,Australia,Weekly,4,8,15
+Gold Coast,mobilePlan,Australia,Weekly,10,15,25
+Hobart,gym,Australia,Weekly,9,12,20
+Hobart,haircuts,Australia,Weekly,10,17,26
+Hobart,cosmetics,Australia,Weekly,4,8,15
+Hobart,mobilePlan,Australia,Weekly,10,15,25
+Melbourne,gym,Australia,Weekly,14,16,25
+Melbourne,haircuts,Australia,Weekly,9,16,23
+Melbourne,cosmetics,Australia,Weekly,4,8,15
+Melbourne,mobilePlan,Australia,Weekly,10,15,25
+Perth,gym,Australia,Weekly,15,19,25
+Perth,haircuts,Australia,Weekly,5,18,30
+Perth,cosmetics,Australia,Weekly,4,8,15
+Perth,mobilePlan,Australia,Weekly,10,15,25
+Sydney,gym,Australia,Weekly,16,18,25
+Sydney,haircuts,Australia,Weekly,6,14,35
+Sydney,cosmetics,Australia,Weekly,4,8,15
+Sydney,mobilePlan,Australia,Weekly,10,15,25

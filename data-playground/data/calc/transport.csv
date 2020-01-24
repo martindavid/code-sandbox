@@ -1,0 +1,33 @@
+city,transport_type,country,price_type,Never,Rarely,Sometimes,Often
+Adelaide,publicTransport,Australia,Weekly,0,5,15,25
+Adelaide,car,Australia,Weekly,0,48,57,75
+Adelaide,taxi,Australia,Weekly,0,15,30,45
+Adelaide,Bicycle/Walking,Australia,Weekly,0,0,0,0
+Brisbane,publicTransport,Australia,Weekly,0,8,23,38
+Brisbane,car,Australia,Weekly,0,48,57,75
+Brisbane,taxi,Australia,Weekly,0,15,30,45
+Brisbane,Bicycle/Walking,Australia,Weekly,0,0,0,0
+Canberra,publicTransport,Australia,Weekly,0,5,15,25
+Canberra,car,Australia,Weekly,0,48,57,75
+Canberra,taxi,Australia,Weekly,0,15,30,45
+Canberra,Bicycle/Walking,Australia,Weekly,0,0,0,0
+Gold Coast,publicTransport,Australia,Weekly,0,4,11,18
+Gold Coast,car,Australia,Weekly,0,48,57,75
+Gold Coast,taxi,Australia,Weekly,0,15,30,45
+Gold Coast,Bicycle/Walking,Australia,Weekly,0,0,0,0
+Hobart,publicTransport,Australia,Weekly,0,2,7,12
+Hobart,car,Australia,Weekly,0,48,57,75
+Hobart,taxi,Australia,Weekly,0,15,30,45
+Hobart,Bicycle/Walking,Australia,Weekly,0,0,0,0
+Melbourne,publicTransport,Australia,Weekly,0,8,23,38
+Melbourne,car,Australia,Weekly,0,48,57,75
+Melbourne,taxi,Australia,Weekly,0,15,30,45
+Melbourne,Bicycle/Walking,Australia,Weekly,0,0,0,0
+Perth,publicTransport,Australia,Weekly,0,7,20,33
+Perth,car,Australia,Weekly,0,48,57,75
+Perth,taxi,Australia,Weekly,0,15,30,45
+Perth,Bicycle/Walking,Australia,Weekly,0,0,0,0
+Sydney,publicTransport,Australia,Weekly,0,11,33,54
+Sydney,car,Australia,Weekly,0,48,57,75
+Sydney,taxi,Australia,Weekly,0,15,30,45
+Sydney,Bicycle/Walking,Australia,Weekly,0,0,0,0

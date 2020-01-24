@@ -1,0 +1,25 @@
+city,clothing_range,country,price_type,0,1,2,3,4,5
+Adelaide,cheap,Australia,Weekly,0,35,70,105,140,175
+Adelaide,medium,Australia,Weekly,0,60,120,180,240,300
+Adelaide,expensive,Australia,Weekly,0,152,304,456,608,760
+Brisbane,cheap,Australia,Weekly,0,35,70,105,140,175
+Brisbane,medium,Australia,Weekly,0,60,120,180,240,300
+Brisbane,expensive,Australia,Weekly,0,152,304,456,608,760
+Canberra,cheap,Australia,Weekly,0,35,70,105,140,175
+Canberra,medium,Australia,Weekly,0,60,120,180,240,300
+Canberra,expensive,Australia,Weekly,0,152,304,456,608,760
+Gold Coast,cheap,Australia,Weekly,0,35,70,105,140,175
+Gold Coast,medium,Australia,Weekly,0,60,120,180,240,300
+Gold Coast,expensive,Australia,Weekly,0,152,304,456,608,760
+Hobart,cheap,Australia,Weekly,0,35,70,105,140,175
+Hobart,medium,Australia,Weekly,0,60,120,180,240,300
+Hobart,expensive,Australia,Weekly,0,152,304,456,608,760
+Melbourne,cheap,Australia,Weekly,0,35,70,105,140,175
+Melbourne,medium,Australia,Weekly,0,60,120,180,240,300
+Melbourne,expensive,Australia,Weekly,0,152,304,456,608,760
+Perth,cheap,Australia,Weekly,0,35,70,105,140,175
+Perth,medium,Australia,Weekly,0,60,120,180,240,300
+Perth,expensive,Australia,Weekly,0,152,304,456,608,760
+Sydney,cheap,Australia,Weekly,0,35,70,105,140,175
+Sydney,medium,Australia,Weekly,0,60,120,180,240,300
+Sydney,expensive,Australia,Weekly,0,152,304,456,608,760

@@ -1,0 +1,33 @@
+city,type,country,price_type,Never,Weekly,Fortnightly,Monthly
+Adelaide,cinema,Australia,Weekly,0,21,11,5
+Adelaide,liveEvent,Australia,Weekly,0,58,29,15
+Adelaide,socialSport,Australia,Weekly,0,11,7,3
+Adelaide,nightOut,Australia,Weekly,0,45,23,11
+Brisbane,cinema,Australia,Weekly,0,17,9,4
+Brisbane,liveEvent,Australia,Weekly,0,42,21,11
+Brisbane,socialSport,Australia,Weekly,0,19,11,5
+Brisbane,nightOut,Australia,Weekly,0,53,27,13
+Canberra,cinema,Australia,Weekly,0,13,7,3
+Canberra,liveEvent,Australia,Weekly,0,78,39,20
+Canberra,socialSport,Australia,Weekly,0,13,8,3
+Canberra,nightOut,Australia,Weekly,0,49,25,12
+Gold Coast,cinema,Australia,Weekly,0,8,4,2
+Gold Coast,liveEvent,Australia,Weekly,0,56,28,14
+Gold Coast,socialSport,Australia,Weekly,0,7,4,2
+Gold Coast,nightOut,Australia,Weekly,0,45,23,11
+Hobart,cinema,Australia,Weekly,0,20,10,5
+Hobart,liveEvent,Australia,Weekly,0,47,24,12
+Hobart,socialSport,Australia,Weekly,0,9,5,2
+Hobart,nightOut,Australia,Weekly,0,45,23,11
+Melbourne,cinema,Australia,Weekly,0,21,11,5
+Melbourne,liveEvent,Australia,Weekly,0,43,22,11
+Melbourne,socialSport,Australia,Weekly,0,14,8,4
+Melbourne,nightOut,Australia,Weekly,0,49,25,12
+Perth,cinema,Australia,Weekly,0,18,9,5
+Perth,liveEvent,Australia,Weekly,0,43,22,11
+Perth,socialSport,Australia,Weekly,0,13,8,3
+Perth,nightOut,Australia,Weekly,0,53,27,13
+Sydney,cinema,Australia,Weekly,0,23,12,6
+Sydney,liveEvent,Australia,Weekly,0,54,27,14
+Sydney,socialSport,Australia,Weekly,0,15,9,4
+Sydney,nightOut,Australia,Weekly,0,49,25,12

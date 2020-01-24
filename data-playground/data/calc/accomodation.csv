@@ -1,0 +1,17 @@
+City,Country,Price Type,Type of accomodation,Homestay,Shared House,One Bedroom,Managed Apartment
+Adelaide,Australia,Weekly,city,325,218,440,260
+Adelaide,Australia,Weekly,suburb,325,198,370,260
+Brisbane,Australia,Weekly,city,320,233,700,300
+Brisbane,Australia,Weekly,suburb,320,198,340,280
+Canberra,Australia,Weekly,city,335,298,505,222
+Canberra,Australia,Weekly,suburb,335,218,345,200
+Gold Coast,Australia,Weekly,city,320,238,295,237
+Gold Coast,Australia,Weekly,suburb,320,200,270,237
+Hobart,Australia,Weekly,city,335,218,540,229
+Hobart,Australia,Weekly,suburb,335,218,370,219
+Melbourne,Australia,Weekly,city,335,243,675,388
+Melbourne,Australia,Weekly,suburb,335,225,450,388
+Perth,Australia,Weekly,city,325,205,410,255
+Perth,Australia,Weekly,suburb,325,188,370,240
+Sydney,Australia,Weekly,city,335,283,745,405
+Sydney,Australia,Weekly,suburb,335,238,610,390
