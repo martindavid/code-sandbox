@@ -4,14 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-ipykernel = "*"
-jupyter = "*"
 pandas = "*"
 numpy = "*"
 sqlalchemy = "*"
 "psycopg2-binary" = "*"
 
 [dev-packages]
+jupyterlab = "*"
+ipykernel = "*"
+xeus-python = "*"
+jupyter = "*"
+nbdev = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3.8"
